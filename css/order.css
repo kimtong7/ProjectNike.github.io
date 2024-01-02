@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 2000px;
+}
+.shoes_information{
+    width: 60%;
+    height: 1000px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.for_img{
+    width: 55%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 70px;
+}
+.small_img{
+    width: 13%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.little_img{
+    width: 100%;
+    height: 9.5%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.little_img img{
+    width: 100%;
+    object-position: 0px -13px;
+}
+.big_img{
+    width: 83%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.big_img img{
+    width: 100%;
+    height: 100%;
+}
+.rate{
+    background-color: rgba(220, 225, 229, 0.455);
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 14px;
+    left: 23px;
+}
+.anthor_info{
+    width: 40%;
+    height: 100%;
+ 
+}
+.anthor_info p:nth-child(1){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+}
+.anthor_info p:nth-child(2){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.anthor_info p:nth-child(3){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.more_color{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+.little_shoes{
+    width: 19%;
+    height: 80px;
+    background-color: rgb(1, 232, 155);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.little_shoes img{
+    width: 100%;
+    object-position: 0px -10px;
+}
+.anthor_info p:nth-child(5),.anthor_info p:nth-child(8){
+    width: 60%;
+    margin: 10px auto;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.anthor_info p:nth-child(5) a{
+    color: black;
+}
+
+.btn{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 10px 0px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+.bg_black{
+    background-color: black;
+    color: white;
+}
+.anthor_info p:nth-child(8){
+    margin: 30px auto;
+    color: gray;
+}
+.r_info{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+.view_product{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid black;
+    padding: 2px 0px;
+    
+}
